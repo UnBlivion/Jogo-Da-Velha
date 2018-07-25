@@ -5,14 +5,31 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background-color: linear(left, red, blue);
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.459), rgba(0, 0, 255, 0.418));
+}
+
+.linha{
+    display: flex;
 }
 
 .casa{
-    display: inline-block;
+    margin: 3px;
     height: 150px;
     width: 150px;
     border: black dashed 4px;
+    background-color: rgba(255, 255, 255, 0.205);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+#tabuleiro{
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.123);
 }
 
 .casa:hover{
@@ -22,4 +39,7 @@ body{
 h1{
     font-size: 30pt;
     font-family: sans-serif;
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0.329);
+    border-radius: 20px;
 }
