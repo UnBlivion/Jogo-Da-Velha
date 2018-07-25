@@ -8,8 +8,18 @@ body{
     background: linear-gradient(to left, rgba(255, 0, 0, 0.459), rgba(0, 0, 255, 0.418));
 }
 
-#congrats{
+.contenir{
+    width: auto;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+}
+
+#congrat{
     top: -100px;
+    left: 25%;
+    position: absolute;
     align-items: center;
     justify-content: center;
     padding: 5px 20px;
@@ -24,6 +34,28 @@ body{
     transform: scale(0.1);
     transition: 2s;
 }
+
+#congrats{
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+}
+
+/*
+button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+*/
 
 .test{
     overflow: hidden;
@@ -62,6 +94,9 @@ h1{
     font-size: 30pt;
     font-family: sans-serif;
     padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(250, 235, 215, 0.329);
     border-radius: 20px;
 }
