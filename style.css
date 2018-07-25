@@ -8,6 +8,27 @@ body{
     background: linear-gradient(to left, rgba(255, 0, 0, 0.459), rgba(0, 0, 255, 0.418));
 }
 
+#congrats{
+    top: -100px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+    color: antiquewhite;
+    text-shadow: 2px 2px black;
+    border: solid black 2px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.863);
+    transform: scale(0.1);
+    transition: 2s;
+}
+
+.test{
+    overflow: hidden;
+}
+
 .linha{
     display: flex;
 }
@@ -30,6 +51,7 @@ body{
     border: black 2px solid;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.123);
+    margin-bottom: 20px;
 }
 
 .casa:hover{
